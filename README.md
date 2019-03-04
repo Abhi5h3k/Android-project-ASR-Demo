@@ -9,7 +9,7 @@
  
  ## Getting Started
 
-![git to android studo](https://media.giphy.com/media/wZDe0QOo2F3O2StPUy/giphy.gif)
+ 
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 

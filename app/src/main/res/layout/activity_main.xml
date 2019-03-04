@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TextOutpuField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_weight="3"
+        android:background="#fff"
+        android:fontFamily="sans-serif"
+        android:text="You Say, I Type"
+        android:textAlignment="center"
+        android:textColor="#DB504A"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:background="#EF767A"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Bengali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#EF767A"
+            android:onClick="setLanguage"
+            android:text="Bengali"
+            android:textColor="#D8E1E9" />
+
+        <Button
+            android:id="@+id/English"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#EF767A"
+            android:onClick="setLanguage"
+            android:text="English"
+            android:textColor="#D8E1E9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:background="#456990"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Gujarati"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#456990"
+            android:onClick="setLanguage"
+            android:text="Gujarati"
+            android:textColor="#D8E1E9" />
+
+        <Button
+            android:id="@+id/Kannada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#456990"
+            android:onClick="setLanguage"
+            android:text="Kannada"
+            android:textColor="#D8E1E9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:background="#49BEAA"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Malayalam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#49BEAA"
+            android:onClick="setLanguage"
+            android:text="Malayalam"
+            android:textColor="#D8E1E9" />
+
+        <Button
+            android:id="@+id/Marathi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#49BEAA"
+            android:onClick="setLanguage"
+            android:text="Marathi"
+            android:textColor="#D8E1E9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:background="#4F6D7A"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Tamil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#4F6D7A"
+            android:onClick="setLanguage"
+            android:text="Tamil"
+            android:textColor="#D8E1E9" />
+
+        <Button
+            android:id="@+id/Telugu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#4F6D7A"
+            android:onClick="setLanguage"
+            android:text="Telugu"
+            android:textColor="#D8E1E9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:background="#EEB868"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Urdu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#EEB868"
+            android:onClick="setLanguage"
+            android:text="Urdu"
+            android:textColor="#D8E1E9" />
+
+        <Button
+            android:id="@+id/Hindi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#EEB868"
+            android:onClick="setLanguage"
+            android:text="Hindi"
+            android:textColor="#D8E1E9" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitEnd"
+        android:src="@drawable/base2" />
+</LinearLayout>
